@@ -53,3 +53,8 @@ git config --global user .email " email "
 10.push사용 원격저장소에 반영(온라인에 보내기)
 
   > git push origin master
+
+11.git 태그 달기
+
+  > git tag "태그이름" 
+  > git log 확인

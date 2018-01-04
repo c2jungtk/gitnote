@@ -1,0 +1,52 @@
+2018.01.04
+
+
+- git에 대한 중요한 모든 것-
+
+환경설정
+(한번 입력하면 계속 됨)
+git config --global user .name " 이름 "
+git config --global user .email " email "
+
+
+1.새로운 저장소 만들
+  
+  > git init 
+
+2.추가와 확정
+
+  > echo 와 >> 를 조합 
+
+    ex) echo 1st >> 1st.txt (메모장)
+
+3.드랙 상태확인 
+
+  > git status
+
+4.언트랙 > 트랙으로 만들기
+
+  > git add --all * [전체]
+  > git add 1st.txt {하나}
+
+
+5.커밋 :  현재 상태를 스냅하는 것(저장,확정)
+
+  > git commit -m " 제목 " / ex) git commit "first"
+
+6.커밋 확인(현재 커밋 상태확인)
+
+  > git log
+
+7.커밋 체인지
+
+  > git commit 커밋숫자
+  > git checkout . [ 최근 마지막 커밋상태로 돌아가기]
+
+8.커밋 중요내용
+
+  커밋은 언트랙 상태에서는 할 수 없다 add를 해야함
+
+9.변경 내용 발행하기
+
+  >git remote add origin 원격 서버 주소
+
